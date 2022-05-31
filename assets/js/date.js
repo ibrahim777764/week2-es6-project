@@ -1,5 +1,4 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
+
 const formatAMPM = (date) => {
   const day = date.toDateString();
   let hours = date.getHours();
