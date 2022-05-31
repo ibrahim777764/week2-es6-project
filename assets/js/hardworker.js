@@ -26,8 +26,7 @@ if (localStorageData === null) {
   localStorageData = [];
 }
 const booksBinding = new Books(bookList, localStorageData);
-
-function addBook() {
+const addBook = () => {
   const title = titleInput.value;
   const author = authorInput.value;
   if (title !== '' && author !== '') {
@@ -39,8 +38,7 @@ function addBook() {
     addForm.reset();
   }
 }
-
-function removeBook(bookId) {
+const removeBook = (bookId) => {
   booksBinding.remove(bookId);
 }
 

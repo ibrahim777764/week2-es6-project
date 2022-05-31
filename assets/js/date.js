@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
-function formatAMPM(date) {
+const formatAMPM = (date) => {
   const day = date.toDateString();
   let hours = date.getHours();
   let minutes = date.getMinutes();
@@ -14,3 +14,5 @@ function formatAMPM(date) {
   return strTime;
 }
 dateContainer.innerHTML = formatAMPM(new Date());
+
+
