@@ -51,4 +51,4 @@ Microverse Community
 
 ## 📝 License
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT.MD](LICENSE) licensed.
