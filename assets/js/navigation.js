@@ -5,9 +5,9 @@ const setAllLinksColorBlack = () => {
   getAllLinks.forEach((link) => {
     link.style.color = 'black';
   });
-}
+};
 
-const manipulateDom = (elemArrayParam, elemToShow, linkClicked)=> {
+const manipulateDom = (elemArrayParam, elemToShow, linkClicked) => {
   setAllLinksColorBlack();
   elemArray = elemArrayParam;
   elemArray.forEach((elem) => {
@@ -15,7 +15,7 @@ const manipulateDom = (elemArrayParam, elemToShow, linkClicked)=> {
   });
   elemToShow.style.display = 'block';
   linkClicked.style.color = 'blue';
-}
+};
 
 listLink.addEventListener('click', () => {
   const elemArray = document.querySelectorAll(

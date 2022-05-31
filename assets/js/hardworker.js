@@ -37,10 +37,10 @@ const addBook = () => {
     }, 2000);
     addForm.reset();
   }
-}
+};
 const removeBook = (bookId) => {
   booksBinding.remove(bookId);
-}
+};
 
 addBookBtn.addEventListener('click', addBook);
 
