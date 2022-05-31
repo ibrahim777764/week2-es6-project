@@ -1,5 +1,4 @@
-
-
+/* eslint-disable no-undef */
 const setAllLinksColorBlack = () => {
   const getAllLinks = document.querySelectorAll('.nav-bar ul a');
   getAllLinks.forEach((link) => {

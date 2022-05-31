@@ -1,4 +1,3 @@
-
 const formatAMPM = (date) => {
   const day = date.toDateString();
   let hours = date.getHours();
@@ -11,7 +10,6 @@ const formatAMPM = (date) => {
   seconds = seconds < 10 ? `0${seconds}` : seconds;
   const strTime = `${day}, ${hours}:${minutes}:${seconds} ${ampm}`;
   return strTime;
-}
+};
+/* eslint-disable no-undef */
 dateContainer.innerHTML = formatAMPM(new Date());
-
-
