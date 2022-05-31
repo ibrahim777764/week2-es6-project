@@ -14,7 +14,7 @@
 - HTML&CSS Linter
 - Git
 
-[LIVE DEMO LINK]( https://ibrahim777764.github.io/ES6-books-project/)
+[LIVE DEMO LINK]( https://ibrahim777764.github.io/week2-es6-project/)
 
 #
 
